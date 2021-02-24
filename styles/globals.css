@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background-color: #1d1f21;
+  color: #c9cacc;
+  font-family: 'Inconsolata';
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.anchor {
+  color: #d1600c;
+  border-bottom: 1px solid transparent;
+}
+
+.anchor:hover {
+  border-bottom: 1px solid #d1600c;
+}
+
+.footer {
+  margin: 1rem;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
