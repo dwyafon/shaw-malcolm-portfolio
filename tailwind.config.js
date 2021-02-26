@@ -4,7 +4,10 @@ module.exports = {
   theme: {
     extend: {},
     colors: {
-      
+      'orange': '#d1600c'
+    },
+    minWidth: {
+      '50': '50%',
     }
   },
   variants: {
