@@ -5,7 +5,7 @@
 body {
   background-color: #1d1f21;
   color: #c9cacc;
-  font-family: 'Inconsolata';
+  font-family: "Inconsolata";
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -20,12 +20,19 @@ body {
   border-bottom: 1px solid #d1600c;
 }
 
-.footer {
+/* .footer {
   margin: 1rem;
   padding: 1rem;
   position: fixed;
   bottom: 0;
   width: 100%;
   margin-top: 5rem;
+} */
+
+.profile {
+  margin-right: 5rem;
 }
 
+/* p {
+  margin-bottom: 1rem;
+} */
