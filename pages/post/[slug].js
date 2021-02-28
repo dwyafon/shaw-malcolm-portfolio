@@ -5,13 +5,14 @@ import matter from 'gray-matter'
 import ReactMarkdown from 'react-markdown/with-html'
 import Navbar from '../../components/navbar'
 import Footer from '../../components/footer'
+import style from '../../styles/markdown-styles.module.css'
 
 export default function Post({ content, frontmatter }) {
   return (
     <div>
       <Navbar />
       <article>
-        <ReactMarkdown escapeHtml={false} source={content} />
+        <ReactMarkdown escapeHtml={false} source={content} className={style.reactMarkDown}/>
       </article>
       <Footer />
     </div>
@@ -19,7 +20,7 @@ export default function Post({ content, frontmatter }) {
 }
 
 export async function getStaticPaths() {
-  const files = await fs.readdirSync('content/post')
+  const files = await fs.readdirSync('content/posts')
 
   const paths = files.map((filename) => ({
     params: {
@@ -35,7 +36,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params: { slug } }) {
   const markdownWithMetaData = fs
-    .readFileSync(path.join('content/post', slug + '.md'))
+    .readFileSync(path.join('content/posts', slug + '.md'))
     .toString()
 
   const { data, content } = matter(markdownWithMetaData)
