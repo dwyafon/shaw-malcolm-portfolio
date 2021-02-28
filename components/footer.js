@@ -4,12 +4,24 @@ import { AiOutlineLinkedin, AiOutlineGithub } from 'react-icons/ai'
 const Footer = () => {
   return (
     <div className='footer flex flex-col justify-center items-center'>
-      <div className='icons flex'>
-        <AiOutlineLinkedin className='mx-2'/>
-        <AiOutlineGithub className="mx-2"/>
+      <div className='icons flex mb-2'>
+        <a
+          href='https://www.linkedin.com/in/shawmalcolm/'
+          referrerPolicy='no-referrer'
+          target='_blank'
+        >
+          <AiOutlineLinkedin className='mx-2' />
+        </a>
+        <a
+          href='https://github.com/dwyafon'
+          referrerPolicy='no-referrer'
+          target='_blank'
+        ></a>
+
+        <AiOutlineGithub className='mx-2' />
       </div>
 
-      <div>
+      <div className='mb-2'>
         <ul className='flex text-sm mr-8'>
           <Link href='/'>
             <a className='mx-2 anchor'>Home</a>
