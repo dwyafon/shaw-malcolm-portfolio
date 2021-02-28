@@ -30,10 +30,6 @@ const Footer = () => {
             <a className='mx-2 anchor'>Home</a>
           </Link>
           |
-          <Link href='/about'>
-            <a className='mx-2 anchor'>About</a>
-          </Link>
-          |
           <Link href='/projects'>
             <a className='mx-2 anchor'>Projects</a>
           </Link>
