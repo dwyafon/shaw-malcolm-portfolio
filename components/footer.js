@@ -39,7 +39,7 @@ const Footer = () => {
           </Link>
         </ul>
       </div>
-      <div className='text-sm mr-8'>Copyright &copy; 2021 Shaw Malcolm</div>
+      <div className='text-sm mr-8'>Copyright &copy; {new Date().getFullYear()} Shaw Malcolm</div>
     </div>
   )
 }
