@@ -5,17 +5,18 @@ import matter from 'gray-matter'
 import ReactMarkdown from 'react-markdown/with-html'
 import Navbar from '../../components/navbar'
 import Footer from '../../components/footer'
-import style from '../../styles/markdown-styles.module.css'
+import style from '../../styles/markdown-styles.module.scss'
+import {MDXProvider} from '@mdx-js/react'
 
-export default function Post({ content, frontmatter }) {
+export default function Post({ content }) {
   return (
-    <div>
+    <MDXProvider>
       <Navbar />
-      <article>
-        <ReactMarkdown escapeHtml={false} source={content} className={style.reactMarkDown}/>
+      <article className="mx-6">
+        <ReactMarkdown escapeHtml={false} source={content} className={style.reactMD}/>
       </article>
       <Footer />
-    </div>
+    </MDXProvider>
   )
 }
 
@@ -36,7 +37,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params: { slug } }) {
   const markdownWithMetaData = fs
-    .readFileSync(path.join('content/posts', slug + '.md'))
+    .readFileSync(path.join('content/posts', `${slug}.md`))
     .toString()
 
   const { data, content } = matter(markdownWithMetaData)
