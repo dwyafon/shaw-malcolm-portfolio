@@ -4,7 +4,7 @@ import { IconContext } from 'react-icons'
 
 const Footer = () => {
   return (
-    <div className='footer flex flex-col justify-center items-center'>
+    <div className='footer flex flex-col justify-center items-center mb-4'>
       <IconContext.Provider value={{ size: '1.5rem' }}>
         <div className='icons flex mb-2'>
           <a
