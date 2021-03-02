@@ -7,7 +7,7 @@ This blog will offer (mostly) short solutions and meditations.
 
 ```
 const funky = () => {
-    return 'The Funky Funky Funky!"
+    return 'Code Sample!"
 }
 ```
 
