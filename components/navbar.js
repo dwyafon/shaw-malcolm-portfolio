@@ -18,7 +18,7 @@ const Navbar = () => {
           <h2 className='text-3xl'>Shaw Malcolm</h2>
           <ul className='flex text-base'>
             <Link href='/'>
-              <a className='mr-2 anchor'>Home</a>
+              <a className='mx-2 anchor'>Home</a>
             </Link>
             |
             <Link href='/projects'>

@@ -24,7 +24,7 @@ export default function Home() {
               />
             </div>
 
-            <div className='mx-5 sm:mx-4 md:mx-16 lg:mx-16'>
+            <div className='mx-5 sm:mx-4 md:mx-16 lg:mx-24 xl:mx-36 xxl:mx-48'>
               <p className='mb-4'>
                 I'm a junior Front-End Developer and Tester who excels at
                 translating UI designs into responsive and accessible layouts
