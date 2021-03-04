@@ -1,7 +1,5 @@
 import Head from "next/head";
-import Navbar from "../components/navbar";
-import Footer from "../components/footer";
-// import Image from "next/image";
+import Layout from "../components/layout";
 
 export default function Home() {
   return (
@@ -12,8 +10,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <link href="public/fonts/style.css" rel="stylesheet" />
       </Head>
-      <div className="grid grid-rows-x min-h-screen col-span-full">
-        <Navbar />
+      <Layout>
+        {" "}
         <div className="flex sm:flex-col lg:flex-row lg:mx-24">
           <div className="flex justify-center mb-2 flex-shrink-0">
             <img
@@ -77,8 +75,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <Footer />
-      </div>
+      </Layout>
     </>
   );
 }
