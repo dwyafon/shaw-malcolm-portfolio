@@ -2,7 +2,11 @@ module.exports = {
   purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      gridTemplateRows: {
+        'x': 'auto 1fr auto'
+      }
+    },
     screens: {
       'sm': '280px',
       'md': '768px',

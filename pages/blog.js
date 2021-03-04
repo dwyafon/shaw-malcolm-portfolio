@@ -6,7 +6,7 @@ import Footer from '../components/footer'
 
 export default function Blog({ posts }) {
   return (
-    <div>
+    <div className="grid grid-rows-x min-h-screen col-span-full">
       <Navbar />
       <div>
         {posts.map(({ frontmatter: { title, description, date }, slug }) => (
