@@ -1,12 +1,9 @@
-import Navbar from '../components/navbar'
-import Footer from '../components/footer'
+import Layout from "../components/layout";
 
 export default function Projects() {
-    return (
-        <>
-        <Navbar />
-        <div className='flex justify-center'>Projects here</div>
-        <Footer />
-        </>
-    )
+  return (
+    <Layout>
+      <div className="flex justify-center">Projects here</div>
+    </Layout>
+  );
 }
