@@ -1,25 +1,19 @@
 .reactMD {
-    h1 {
-        font-size: 1.5rem;
-        margin-bottom: 1rem;
-    }
+  h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
 
-    h2 {
-        color: yellow;
-    }
+  h2 {
+    color: yellow;
+  }
 
-    // p {
-    //     color: #d1600c;
-    // }
+  h3 {
+    font-size: 100px;
+  }
 
-    h3 {
-        font-size: 100px;
-    }
-
-    pre {
-        margin: 1rem auto;
-        overflow-x: hidden;
-  
-    }
-
+  pre {
+    margin: 1rem auto;
+    overflow-x: hidden;
+  }
 }
