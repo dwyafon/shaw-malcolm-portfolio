@@ -1,6 +1,6 @@
 module.exports = {
   purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'class',
   theme: {
     extend: {
       gridTemplateRows: {
@@ -16,7 +16,10 @@ module.exports = {
     },
     colors: {
       'orange': '#d1600c',
-      'charcoal': '#303030'
+      'charcoal': '#303030',
+      'chocolate': '#1d1f21',
+      'cream': '#c9cacc',
+      'black': '#000'
     },
     minWidth: {
       '50': '50%',

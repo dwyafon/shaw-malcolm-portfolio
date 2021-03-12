@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
 html,
 body {
   height: 100%;
@@ -9,7 +11,7 @@ body {
 }
 
 body {
-  background-color: #1d1f21;
+  /* background-color: #1d1f21; */
   color: #c9cacc;
   font-family: 'Inconsolata';
   box-sizing: border-box;

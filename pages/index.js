@@ -21,12 +21,12 @@ export default function Home() {
             />
           </div>
 
-          <div className='mx-5 sm:mx-4 md:mx-16 lg:mx-24 xl:mx-36 xxl:mx-48'>
+          <div className='mx-5 sm:mx-4 md:mx-16 lg:mx-24 xl:mx-36 xxl:mx-48 text-black dark:text-cream'>
             <p className='mb-4'>
-              I'm a junior Front-End Developer and Tester who excels at
-              translating UI designs into responsive and accessible layouts with
-              JavaScript, TypeScript, and React. I'm also a huge advocate of
-              testing and writing testable code. Currently apprenticing at{' '}
+              I'm a junior developer who excels at translating UI designs into
+              responsive and accessible layouts with JavaScript, TypeScript, and
+              React. I'm also a huge advocate of testing and writing testable
+              code. Currently apprenticing at{' '}
               <a
                 className='text-orange'
                 href='https://trackstack.in/'
@@ -38,7 +38,7 @@ export default function Home() {
               .
             </p>
             <p className='mb-4'>
-              My background is highly leverageable for web development: 17 years
+              My background is highly leverageable for software development: 17 years
               in the hospitality industry defining and solving problems,
               building relatonships with stakeholders, and utilising agile
               practises (including Scrum) for staff, service and system

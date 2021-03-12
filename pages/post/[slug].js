@@ -1,6 +1,5 @@
 import React from 'react'
-import Navbar from '../../components/navbar'
-import Footer from '../../components/footer'
+import Layout from '../../components/layout'
 import style from '../../styles/markdown-styles.module.scss'
 import fs from 'fs'
 import path from 'path'
@@ -21,8 +20,8 @@ const syntaxHighlight = ({ value }) => {
 export default function Post({ content }) {
   return (
     <MDXProvider>
-      <Navbar />
-      <article className='mx-6'>
+      <Layout>
+      <article className='mx-8'>
         <ReactMarkdown
           className={style.reactMD}
           escapeHtml={false}
@@ -30,7 +29,7 @@ export default function Post({ content }) {
           renderers={{ code: syntaxHighlight}}
         />
       </article>
-      <Footer />
+      </Layout>
     </MDXProvider>
   )
 }
