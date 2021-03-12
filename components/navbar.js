@@ -17,14 +17,14 @@ const Navbar = () => {
           <Link href='/'>
             {theme === 'dark' ? (
               <Image
-                src='/images/logo.png'
+                src='/images/white-logo-no-bg.png'
                 alt='Shaw Malcolm Logo'
                 width={60}
                 height={60}
               />
             ) : (
               <Image
-                src='/images/orange-logo.png'
+                src='/images/logo-black.png'
                 alt='Shaw Malcolm Logo'
                 width={60}
                 height={60}
@@ -49,11 +49,10 @@ const Navbar = () => {
             </Link>
           </ul>
         </div>
-        <div>
+        <div className='sm:mt-3 lg:mt-0 lg: ml-3'>
           <button
             aria-label='Toggle Dark Mode'
             type='button'
-            className='p-3 h-12 w-12 order-2 md:order-3 absolute left-2/4 transform -translate-x-2/4 md:relative md:left-0 lg:ml-2'
             onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
           >
             {mounted && (
