@@ -21,7 +21,7 @@ export default function Post({ content }) {
   return (
     <MDXProvider>
       <Layout>
-      <article className='mx-8'>
+      <article className=''>
         <ReactMarkdown
           className={style.reactMD}
           escapeHtml={false}

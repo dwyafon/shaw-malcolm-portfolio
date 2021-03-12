@@ -10,7 +10,7 @@ const Navbar = () => {
   useEffect(() => setMounted(true), [])
 
   return (
-    <div className='flex flex-col sm:items-center sm:mb-12 mb-2 lg:items-start lg:m-8'>
+    <div className='flex flex-col sm:items-center sm:mb-2 mb-2 lg:items-start lg:m-8'>
       <div className='flex flex-col items-center lg:flex-row lg:justify-start'>
         <div className='sm:mt-4 lg:mt-0'>
           {' '}

@@ -7,7 +7,7 @@ export default function Blog({ posts }) {
   return (
     <Layout>
       {' '}
-      <div className="mx-8">
+      <div className='mx-8'>
         {posts.map(({ frontmatter: { title, description, date }, slug }) => (
           <article key={slug}>
             <header>
