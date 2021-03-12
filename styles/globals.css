@@ -11,12 +11,15 @@ body {
 }
 
 body {
-  /* background-color: #1d1f21; */
   color: #c9cacc;
   font-family: 'Inconsolata';
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+p {
+  margin-bottom: 1rem;
 }
 
 .anchor {
@@ -35,14 +38,4 @@ body {
   grid-template-columns: 100%;
 }
 
-.footer {
-  width: 100%;
-}
 
-/* .profile {
-  margin-right: 5rem;
-} */
-
-/* p {
-  margin-bottom: 1rem;
-} */

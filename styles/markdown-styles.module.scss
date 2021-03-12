@@ -1,8 +1,9 @@
 .reactMD {
   h1 {
     font-size: 1.5rem;
-    margin-bottom: 1rem;
-    color: #d1600c
+    margin-bottom: 1.5rem;
+    color: #d1600c;
+    text-align: center;
   }
 
   h2 {
@@ -17,4 +18,13 @@
     margin: 1rem auto;
     overflow-x: hidden;
   }
+
+  // .main {
+  //   display: flex;
+  //   flex-direction: column;
+  //   @media(min-width:1024px) {
+  //     max-width: 50%;
+  //     margin: 0 auto;
+  //   }
+  // }
 }
