@@ -4,7 +4,7 @@ import matter from 'gray-matter'
 import Layout from '../components/layout'
 
 export default function Blog({ posts }) {
-  const Posts = posts.sort((a, b) => b.frontmatter.id - +a.frontmatter.id)
+  const Posts = posts.sort((a, b) => b.frontmatter.id - a.frontmatter.id)
   return (
     <Layout>
       {' '}

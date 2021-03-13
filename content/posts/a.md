@@ -1,8 +1,8 @@
 ---
 title: A
 description: First blog post
-date: 2022-12-14
-id: 1
+date: 2021-03-01
+id: 2
 ---
 
 <main className='main sm:mx-4 md:mx-8 max-w-screen-md lg:mx-48 xl:mx-96 lg:mb-36 text-black dark:text-cream'>
