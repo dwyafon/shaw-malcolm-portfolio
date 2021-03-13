@@ -4,7 +4,11 @@ module.exports = {
   theme: {
     extend: {
       gridTemplateRows: {
-        'x': 'auto 1fr auto'
+        'x': 'auto 1fr auto',
+        'projectRows': 'repeat(3, 500px)'
+      },
+      gridTemplateColumns: {
+        'projectColumns': 'repeat(auto-fit, minmax(100px, 1fr))'
       }
     },
     screens: {
