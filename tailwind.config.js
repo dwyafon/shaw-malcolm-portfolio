@@ -14,6 +14,9 @@ module.exports = {
       'xl': "1280px",
       'xxl': "1536px"
     },
+    fontFamily: {
+      'sans': ['Inter']
+    },
     colors: {
       'orange': '#d1600c',
       'charcoal': '#303030',
