@@ -1,13 +1,41 @@
 ---
 title: Portfolio
-description: An app to help you schedule and track daily water consumption 
-image: /./project-images/orange-logo.png
+description: An app to help you schedule and track daily water consumption
+image: '/../public/images/portfolio-flat-devices.png'
 alt: Portfolio screenshot
 type: Web App
-tools: ["one", "two"]
+tools: ['one', 'two']
 source: https://h2o-tracker.vercel.app/
 visit: https://h2o-tracker.vercel.app/
 id: 4
 ---
 
-<p>Hoodie hashtag incididunt paleo gluten-free eu DIY. Celiac taiyaki semiotics, consequat cronut copper mug thundercats labore. Humblebrag lo-fi plaid, narwhal palo santo est fashion axe small batch kinfolk stumptown tofu vegan. Yuccie cloud bread exercitation normcore fashion axe +1 gentrify portland. Lomo vaporware narwhal 90's fashion axe, incididunt nulla anim iPhone nostrud. Vaporware paleo williamsburg bespoke sunt taxidermy succulents. Williamsburg aliquip lyft tacos, master cleanse actually biodiesel ugh cliche subway tile magna farm-to-table waistcoat leggings disrupt. Offal microdosing mumblecore lomo keytar ipsum banjo gochujang twee. Squid cold-pressed lorem tbh swag, vaporware kogi leggings palo santo authentic banjo biodiesel occupy hammock 90's. Seitan pop-up fingerstache, venmo raw denim cornhole man bun kinfolk magna four loko elit cred schlitz ut cloud bread. Officia vegan in nulla chartreuse edison bulb. Ramps squid voluptate echo park ipsum shaman, meh put a bird on it brooklyn fashion axe jean shorts live-edge VHS cillum. Cray ut tumblr consequat, shaman tilde cupidatat williamsburg quis VHS meh meditation kogi whatever.Hoodie hashtag incididunt paleo gluten-free eu DIY. Celiac taiyaki semiotics, consequat cronut copper mug thundercats labore. Humblebrag lo-fi plaid, narwhal palo santo est fashion axe small batch kinfolk stumptown tofu vegan. Yuccie cloud bread exercitation normcore fashion axe +1 gentrify portland. Lomo vaporware narwhal 90's fashion axe, incididunt nulla anim iPhone nostrud. Vaporware paleo williamsburg bespoke sunt taxidermy succulents. Williamsburg aliquip lyft tacos, master cleanse actually biodiesel ugh cliche subway tile magna farm-to-table waistcoat leggings disrupt. Offal microdosing mumblecore lomo keytar ipsum banjo gochujang twee. Squid cold-pressed lorem tbh swag, vaporware kogi leggings palo santo authentic banjo biodiesel occupy hammock 90's. Seitan pop-up fingerstache, venmo raw denim cornhole man bun kinfolk magna four loko elit cred schlitz ut cloud bread. Officia vegan in nulla chartreuse edison bulb. Ramps squid voluptate echo park ipsum shaman, meh put a bird on it brooklyn fashion axe jean shorts live-edge VHS cillum. Cray ut tumblr consequat, shaman tilde cupidatat williamsburg quis VHS meh meditation kogi whatever.</p>
+<main className='main sm:mx-4 md:mx-8 max-w-screen-md lg:mx-48 xl:mx-96 lg:mb-36 text-black dark:text-cream'>
+
+<h3 className><span className='anchor'>Source</span> | <span className='anchor'>Visit</span> | <span>Built with: </span></h3>
+
+<h2>What it does</h2>
+
+---
+
+<h2>How I built it</h2>
+
+---
+
+<h2>How I tested it</h2>
+
+---
+
+<h2>What challenges I ran into</h2>
+
+---
+
+<h2>What I learned</h2>
+
+---
+
+<h2>What's next for this project
+
+---
+
+</main>

@@ -1,7 +1,7 @@
 ---
 title: Random Linear Gradient Generator
 description: A tool for quickly grabbing a background when you need some colour in development
-image: /./project-images/orange-logo.png
+image: "/../public/images/gradients-flat-devices.png"
 alt: Random Linear Gradient Generator screenshot
 type: Web App
 tools: ["two", "three"]

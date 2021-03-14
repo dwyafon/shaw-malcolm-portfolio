@@ -1,7 +1,7 @@
 ---
 title: Math Quotations App
 description: An app to help you schedule and track daily water consumption 
-image: "/../project-images/orange-logo.png"
+image: "/../public/images/math-quotations-flat-devices.png"
 alt: Math Quotations App screenshot
 type: Web App
 tools: ["one", "two"]
