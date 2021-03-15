@@ -52,10 +52,10 @@ export default function Projects({ projects }) {
                   Type: <span className='text-cream'>{type}</span>
                 </p>
                 <p className='text-sm mb-1 text-orange'>
-                  Built with:{' '}
+                  Built with: {' '}
                   {tools.map((tool, index) => (
                     <span key={index} className='text-cream'>
-                      {tool}{' '}
+                      {index === tools.length - 1 ? (`${tool} `) : (`${tool}, `) }
                     </span>
                   ))}
                 </p>
