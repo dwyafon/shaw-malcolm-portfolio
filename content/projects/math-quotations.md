@@ -1,7 +1,7 @@
 ---
 title: Math Quotations App
 description: Get inspired with random quotations about math and numbers
-image: /math-quotations-flat-devices.png
+image: "/math-quotations-flat-devices.png"
 alt: Math Quotations App screenshot
 type: Web App
 tools: [JavaScript, Create React App, Styled Components, Axios]
@@ -10,7 +10,7 @@ visit: https://math-quotations.vercel.app/
 id: 1
 ---
 
-<main className='main sm:mx-4 md:mx-8 max-w-screen-md lg:mx-48 xl:mx-96 lg:mb-36 text-black dark:text-cream'>
+<main>
 
 <h3><span className='anchor'>Source</span> | <span className='anchor'>Visit</span> | <span>Built with: <span className='text-cream'></span> </span></h3>
 

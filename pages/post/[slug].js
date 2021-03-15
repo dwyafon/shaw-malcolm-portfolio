@@ -21,7 +21,7 @@ export default function Post({ content }) {
   return (
     <MDXProvider>
       <Layout>
-      <article className=''>
+      <article className='sm:mx-4 md:mx-8 max-w-screen-md lg:mx-48 xl:mx-96 lg:mb-36 text-black dark:text-cream'>
         <ReactMarkdown
           className={style.reactMD}
           escapeHtml={false}

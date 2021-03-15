@@ -10,7 +10,7 @@ visit: https://h2o-tracker.vercel.app/
 id: 3
 ---
 
-<main className='main sm:mx-4 md:mx-8 max-w-screen-md lg:mx-48 xl:mx-96 lg:mb-36 text-black dark:text-cream'>
+<main >
 
 <h3><span className='anchor'>Source</span> | <span className='anchor'>Visit</span> | <span>Built with: <span className='text-cream'></span> </span></h3>
 

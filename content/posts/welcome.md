@@ -5,7 +5,7 @@ date: 2021-03-14
 id: 1
 ---
 
-<main className='main sm:mx-4 md:mx-8 max-w-screen-md lg:mx-48 xl:mx-96 lg:mb-36 text-black dark:text-cream'>
+<main>
 
 <p>Hello. Welcome to the blog. Here you'll find notes I write to myself on my journey of learning as a software engineer, programmer, human being. These notes will be mostly short (and hopefully concise) -- things like explanations of solutions that have worked for me, particular problems about which I'm feeling extra curious, and meditations on learning and the software development process.<p>
 
