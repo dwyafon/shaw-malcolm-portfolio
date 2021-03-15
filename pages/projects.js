@@ -57,12 +57,12 @@ export default function Projects({ projects }) {
                   ))}
                 </p>
                 <p className='text-sm mb-1'>
-                  <a href={source} className='anchor'>
+                  <a href={source} target='_blank' rel='noopener noreferer' className='anchor'>
                     Source Code
                   </a>
                 </p>
                 <p className='text-sm mb-1'>
-                  <a href={visit} className='anchor'>
+                  <a href={visit} target='_blank' rel='noopener noreferer' className='anchor'>
                     Visit
                   </a>
                 </p>
