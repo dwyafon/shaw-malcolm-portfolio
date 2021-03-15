@@ -90,7 +90,7 @@ export async function getStaticProps() {
     }
 
     return {
-      slug: filename.replace('.md', ''),
+      slug: filename.replace('.mdx', ''),
       frontmatter,
     }
   })

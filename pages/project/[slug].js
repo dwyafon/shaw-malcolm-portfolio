@@ -21,7 +21,7 @@ export default function Project({ content }) {
   return (
     <MDXProvider>
       <Layout>
-        <article className=''>
+        <article className='sm:mx-4 md:mx-8 max-w-screen-md lg:mx-48 xl:mx-96 lg:mb-36 text-black dark:text-cream'>
           <ReactMarkdown
             className={style.reactMD}
             escapeHtml={false}
@@ -39,7 +39,7 @@ export async function getStaticPaths() {
 
   const paths = files.map((filename) => ({
     params: {
-      slug: filename.replace('.md', ''),
+      slug: filename.replace('.mdx', ''),
     },
   }))
 
@@ -51,7 +51,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params: { slug } }) {
   const markdownWithMetaData = fs
-    .readFileSync(path.join('content/projects', `${slug}.md`))
+    .readFileSync(path.join('content/projects', `${slug}.mdx`))
     .toString()
 
   const { data, content } = matter(markdownWithMetaData)

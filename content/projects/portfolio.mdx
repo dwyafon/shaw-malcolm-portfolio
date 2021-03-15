@@ -1,0 +1,72 @@
+---
+title: Portfolio
+description: My projects and blog
+image: '/portfolio-flat-devices.png'
+alt: Portfolio screenshot
+type: Web App
+tools:
+  [JavaScript, Next.js, Tailwind, CSS Modules, SASS, Flexbox, Grid, Markdown]
+source: https://github.com/dwyafon/shaw-malcolm-portfolio
+visit: https://shawmalcolm.dev/
+id: 4
+---
+
+<main>
+
+<h3><span className='anchor'><a href='https://github.com/dwyafon/shaw-malcolm-portfolio' className='anchor' target='_blank' rel='noreferrer noopener'> Source </a></span> | <a href='https://shawmalcolm.dev/' className='anchor' target='_blank' rel='noreferrer noopener'> Visit </a></span> | <span>Built with: <span className='text-cream'>JavaScript, Next.js, Tailwind, CSS Modules, SASS, Flexbox, Grid, Markdown</span> </span></h3>
+
+<h2>What it does</h2>
+
+---
+
+It showcases my projects and process, as well as my voice as a writer-programmer-learner.
+
+<h2>How I built it</h2>
+
+---
+
+<p>I began with a <a href='https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss' className='anchor' target='_blank' rel='noreferrer noopener'>Next.js + Tailwind CSS example</a> that includes a starter tailwind.config.js file. I had never used Tailwind before and had heard about how it can help to speed up styling -- it definitely can. I turned often to the <a href='https://tailwindcss.com/docs' className='anchor' target='_blank' rel='noreferrer noopener'>Tailwind docs </a>to develop a grasp of the syntax, and once that was familiar the process of styling components and making changes felt quick and efficient.</p>
+
+<p>Both the blog entries and the project descriptions (such as what you're reading right now) utilise Next.js dynamic routing, with the slug content for both areas coming from separate sets of Markdown files. Tailwind is highly customisable, and I took advantage of how it supports the use of JSX and its own class names within Markdown files. the MD files themselves utilise frontmatter which is passed to a slug during the process of a dynamic page being generated.</p>
+
+<p>I used CSS Grid for the overall layout structure and Flexbox for more granular positioning, CSS Modules and SASS for global Markdown styling passed to the blog post and project slugs, and @font-face to add one consistent and locally accessible font. I downloaded the Inter font from Google Fonts and converted it from ttf to woff and woff2 files with <a href='https://transfonter.org/' className='anchor' target='_blank' rel='noreferrer noopener'>transfonter</a>.</p>
+
+<p>The portfolio's light-dark theme toggling is based on Tailwind's <a href='https://tailwindcss.com/docs/dark-mode' className='anchor' target='_blank' rel='noreferrer noopener'>dark mode feature</a> and the <a href='https://github.com/pacocoursey/next-themes' className='anchor' target='_blank' rel='noreferrer noopener'>next-themes </a>package which comes with a ThemeProvider that is wrapped around the application's central Component. The next-themes useTheme() hook is integrated with the toggle, which makes the application globally aware of the theme being 'light' or 'dark'.
+
+<h2>How I tested it</h2>
+
+---
+
+<h2>What challenges I ran into</h2>
+
+---
+
+</p>I was used to using Styled Components, so getting used to the Tailwind syntax slowed me down at first. Once the syntax was familiar, styling felt quite easy and more flexible in certain ways -- for example, using a quick 'mx' class for horizontal spacing to shift components felt like a gift.</p>
+
+<p>Deciding on the best approach to the light-dark toggle and trying different implementations felt like rabbit holes initially, until I discvovered the easy combo of Tailwind's dark mode feature and next-themes.</p>
+
+<p>I also struggled with linking the images from the project markdown frontmatter with the image files. Originally, I placed the image files in an image folder inside the Public folder. The pathnames in the frontmatter were correct, and the images loaded on the local server, but the deployment on Vercel kept throwing 404s for the images. Moving the project images straight into the Public folder and changing the paths in the frontmatter solved the problem, but I'd rather keep the images in their own sub-directory. More exploring there to be done.</p>
+
+
+
+
+<h2>What I learned</h2>
+
+---
+
+<p>Along with first steps with Tailwind, I learned, or relearned really, that Next.js is super fast. I also discovered that MDX really opens up the Markdown game, and that MD files play really nicely with Next.js routing.</p>
+
+<h2>How I deploy it</h2>
+
+---
+
+<p>The portfolio is deployed as a project on Vercel with a link to the repository on Github. Vercel uses its own CI pipeline with automated tests and sends me emails with reports on the success or failure of attempted deployments after I've pushed changes to the remote repository.</p>
+
+
+<h2>What's next for this project
+
+---
+
+<p>I need to test it. The Testing Library will be my toolbox for that. Once that is done, I'll update this page with details on what I found and learned.</p> 
+
+</main>
