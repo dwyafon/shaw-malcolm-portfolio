@@ -1,7 +1,7 @@
 ---
 title: Portfolio
 description: My projects and blog
-image: /images/portfolio-flat-devices.png
+# image: ./images/portfolio-flat-devices.png
 alt: Portfolio screenshot
 type: Web App
 tools: [JavaScript, Next.js, Tailwind, CSS Modules, SASS, Markdown]

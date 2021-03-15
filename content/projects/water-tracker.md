@@ -1,7 +1,7 @@
 ---
 title: H2O Tracker
 description: An app to help you schedule and track daily water consumption
-image: /images/h2o-tracker-flat-devices.png
+# image: /images/h2o-tracker-flat-devices.png
 alt: H2O Tracker screenshot
 type: Web App
 tools: [JavaScript, Next.js, Styled Components]
