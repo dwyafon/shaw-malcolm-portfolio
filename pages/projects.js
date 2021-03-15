@@ -2,7 +2,7 @@ import Link from 'next/link'
 import fs from 'fs'
 import matter from 'gray-matter'
 import Layout from '../components/layout'
-// import Image from "next/image";
+import Image from "next/image";
 
 export default function Projects({ projects }) {
   const Projects = projects.sort((a, b) => b.frontmatter.id - a.frontmatter.id)
@@ -36,7 +36,14 @@ export default function Projects({ projects }) {
                 </h2>
                 <p className='text-sm mb-1 text-cream'>{description}</p>
               </header>
-              <section className='flex justify-center mt-2 mb-2'></section>
+              <section className='flex justify-center mt-2 mb-2'>
+              <Image
+              src={image}
+              alt={alt}
+              width={500}
+              height={375}
+            />
+              </section>
               <section>
                 <p className='text-sm mb-1 text-orange'>
                   Type: <span className='text-cream'>{type}</span>
