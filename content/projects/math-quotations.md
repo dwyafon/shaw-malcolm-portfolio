@@ -1,7 +1,7 @@
 ---
 title: Math Quotations App
 description: Get inspired with random quotations about math and numbers
-image: /../public/images/math-quotations-flat-devices.png
+image: /images/math-quotations-flat-devices.png
 alt: Math Quotations App screenshot
 type: Web App
 tools: [JavaScript, Create React App, Styled Components, Axios]
