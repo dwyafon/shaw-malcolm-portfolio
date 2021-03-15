@@ -1,6 +1,6 @@
 ---
 title: Portfolio
-description: Shaw Malcolm projects and blog
+description: My projects and blog
 image: /../public/images/portfolio-flat-devices.png
 alt: Portfolio screenshot
 type: Web App

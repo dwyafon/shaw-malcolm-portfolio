@@ -1,6 +1,6 @@
 ---
 title: Math Quotations App
-description: An app to help you schedule and track daily water consumption 
+description: Get inspired with random quotations about math and numbers
 image: /../public/images/math-quotations-flat-devices.png
 alt: Math Quotations App screenshot
 type: Web App
