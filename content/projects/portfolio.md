@@ -1,7 +1,7 @@
 ---
 title: Portfolio
 description: Shaw Malcolm projects and blog
-image: '/../public/images/portfolio-flat-devices.png'
+image: /../public/images/portfolio-flat-devices.png
 alt: Portfolio screenshot
 type: Web App
 tools: [JavaScript, Next.js, Tailwind, CSS Modules, SASS, Markdown]

@@ -43,8 +43,8 @@ export default function Projects({ projects }) {
                   className=''
                   src={image}
                   alt={alt}
-                  width={360}
-                  height={250}
+                  width={500}
+                  height={375}
                 />
               </section>
               <section>
