@@ -7,7 +7,7 @@ id: 1
 
 <main>
 
-<p>Hello. Welcome to the blog. Here you'll find notes I write to myself on my journey of learning as a software engineer, programmer, human being. These notes will be mostly short (and hopefully concise) -- things like explanations of solutions that have worked for me, particular problems about which I'm feeling extra curious, and meditations on learning and the software development process.<p>
+<p>Hello. Welcome to the blog. Here you'll find notes that I write to myself on my journey of learning as a software engineer, programmer, human being. These notes will be mostly short (and hopefully concise) -- things like explanations of solutions that have worked for me, particular problems about which I'm feeling extra curious, and meditations on learning and the software development process.<p>
 
 <p>These days, the blogs and other sites that inspire me the most to write offer brevity, clarity, and precision. Resources such as <a href='https://seths.blog/' className='anchor' target='_blank' rel='noreferrer noopener'>Seth's Blog </a>give me something small and concrete and quickly manageable -- along with depth of meaning and possibility. I want this blog to offer something like that.</p> 
 
