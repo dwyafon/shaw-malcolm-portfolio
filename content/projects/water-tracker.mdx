@@ -92,7 +92,8 @@ id: 3
 <p>
   For this new version, I began with developing user stories, which led to a
   better understanding of what features were needed, which led to the
-  development of the backlog (which I'm still working through).
+  development of the backlog (which I'm still working through). I then designed
+  the UI mockups for the landing/form and tracker/timer pages with Figma.
 </p>
 
 <p>
@@ -108,6 +109,15 @@ id: 3
 ---
 
 <h2>What challenges I ran into</h2>
+<p>
+  When starting on this new version, I wanted to immediately connect it to a
+  PostgreSQL database (for user accounts), use Primsma as an ORM, and add user
+  authentication. This backend focus, I realised, was premature and was
+  distracting me from the frontend needs, so I started over and focused solely
+  on a version that I could use as the base tool I had originally envisioned
+  while continuing to improve the frontend and moving closer to starting on the
+  backend.
+</p>
 
 ---
 
@@ -115,12 +125,35 @@ id: 3
 
 ---
 
+<p>
+  Approaching the development of the app in a more agile way took more time up
+  front, but it has paid off in overall clarity and efficiency of process.
+</p>
+<p></p>
+
 <h2>How I deployed it</h2>
 
 ---
 
+The H2O Tracker is deployed using Vercel for hosting, CI pipeline, and automated tests.
+
 <h2>What's next for this project
 
 ---
+
+<p>
+  &bull; A gentle reminder to the user when the average amount of water to drink
+  has not been met.
+</p>
+
+<p>&bull; Content for the T&C's, Guidelines, and About pages.</p>
+
+<p>
+  &bull; User accounts using a PostgreSQL database and Prisma for object
+  relational mapping -- I want to give users the option to record their daily,
+  weekly, mopnthly, and yearly water intake.
+</p>
+
+<p>&bull; User authentication</p>
 
 </main>
