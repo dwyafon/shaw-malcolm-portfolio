@@ -19,8 +19,9 @@ const Footer = () => {
             href='https://github.com/dwyafon'
             referrerPolicy='no-referrer'
             target='_blank'
-          ></a>
-          <AiOutlineGithub />
+          >
+            <AiOutlineGithub />
+          </a>
         </div>
       </IconContext.Provider>
 
