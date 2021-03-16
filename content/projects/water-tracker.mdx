@@ -1,7 +1,7 @@
 ---
 title: H2O Tracker
 description: An app to help you schedule and track daily water consumption
-image: "/h2o-tracker-flat-devices.png"
+image: '/h2o-tracker-flat-devices.png'
 alt: H2O Tracker screenshot
 type: Web App
 tools: [JavaScript, Next.js, Styled Components]
@@ -12,15 +12,96 @@ id: 3
 
 <main >
 
-<h3><span className='anchor'>Source</span> | <span className='anchor'>Visit</span> | <span>Built with: <span className='text-cream'></span> </span></h3>
+<h3>
+  <span>
+    <a
+      href='https://github.com/dwyafon/water-tracker'
+      target='_blank'
+      rel='noopener noreferrer'
+      className='anchor'
+    >
+      Source
+    </a>
+  </span>
+  | <span>
+    <a
+      href='https://h2o-tracker.vercel.app/'
+      target='_blank'
+      rel='noopener noreferrer'
+      className='anchor'
+    >
+      Visit
+    </a>
+  </span>| <span>Built with: </span>
+  <span className='text-cream'>JavaScript, Next.js, Styled Components</span>
+</h3>
+
+<h2>Why I built it</h2>
+
+---
+
+<p>
+  The problem I'm trying to solve: Dehydration while spending many hours in
+  front of a screen. Dehydration can contribute to fatigue and depression, and
+  drinking enough water is a simple and powerful way to support oneself. The app
+  is meant to get the user thinking more about drinking water through goal
+  setting and logging consumption throughout the day.
+</p>
 
 <h2>What it does</h2>
 
 ---
 
+<p>
+  The H2O Tracker helps the user to keep track of how much of a predetermined
+  amount of water has been consumed over a predetermined amount of time.
+</p>
+
+<p>
+
+<p>
+  The user is prompted to input a water consumption goal in litres and the
+  number of hours over which that water is to be consumed. The app then provides
+  an average amount of water to be consumed per hour and asks for confirmation
+  of these details. If the user clicks the 'No' button, the input fields
+  maintain their amounts and wait for the user to make the necessary changes. If
+  the user clicks the 'Yes' button, the user is taken to a new page with a timer
+  and a console for logging water consumed. The user is instructed to click the
+  'H2O' button each time the average amount of water has been consumed, which
+  adds that amount to the total amount in the console.
+</p>
+
 <h2>How I built it</h2>
 
 ---
+
+<p>
+  The
+  <a
+    href='https://h2o-tracker.netlify.app/'
+    target='_blank'
+    rel='noopener noreferrer'
+    className='anchor'
+  >
+    first version of this app
+  </a>
+  was built with vanilla JS, HTML and CSS. It was a good start, but it lacked
+  responsiveness and speed.
+</p>
+
+<p>
+  For this new version, I began with developing user stories, which led to a
+  better understanding of what features were needed, which led to the
+  development of the backlog (which I'm still working through).
+</p>
+
+<p>
+  I chose the Next.js framework because I wanted fast server-side rendering, and
+  I wanted the app to move from the landing page with the form to the tracking
+  page with the timer. I trust in the Next.js routing set-up.
+</p>
+
+<p>Styling is done primarily with Styled Components and custom breakpoints.</p>
 
 <h2>How I tested it</h2>
 
@@ -33,7 +114,6 @@ id: 3
 <h2>What I learned</h2>
 
 ---
-
 
 <h2>How I deployed it</h2>
 
