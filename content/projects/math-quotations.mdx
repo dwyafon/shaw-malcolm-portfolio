@@ -1,6 +1,6 @@
 ---
 title: Math Quotations App
-description: Get inspired with random quotations about math and numbers
+description: Get inspired with random quotations about math
 image: "/math-quotations-flat-devices.png"
 alt: Math Quotations App screenshot
 type: Web App
@@ -12,15 +12,64 @@ id: 1
 
 <main>
 
-<h3><span className='anchor'>Source</span> | <span className='anchor'>Visit</span> | <span>Built with: <span className='text-cream'></span> </span></h3>
+<h3>
+  <span>
+    <a
+      href="https://github.com/dwyafon/math-quotations-app"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="anchor"
+    >
+      Source
+    </a>
+  </span>
+  | <span>
+    <a
+      href="https://math-quotations.vercel.app/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="anchor"
+    >
+      Visit
+    </a>
+  </span>| <span>Built with: </span>
+  <span className="text-black dark:text-cream">
+    JavaScript, Create React App, Styled Components, Axios
+  </span>
+</h3>
+
+<h2>Why I built it</h2>
+
+---
+
+<p>
+  This app evolved out of my intention to practise asynchronous with APIs -- and
+  then to practise these things in conjunction with React hooks, namely
+  useState() useEffect(). Ultimately, the app is meant to provide inspiration
+  through random quotations about math (and to remind me of the link between
+  math and programming).
+</p>
 
 <h2>What it does</h2>
 
 ---
 
+<p>
+  It displays a random quotation about math with a random linear gradient
+  background when the user clicks the 'click for a new quote' button, providing
+  immense inspiration for the eyes and mind!
+</p>
+
 <h2>How I built it</h2>
 
 ---
+
+<p>
+  The API call was originally done with fetch(), but I switched to using the
+  Axios package for built-in JSON parsing.
+</p>
+
+
 
 <h2>How I tested it</h2>
 
