@@ -1,7 +1,7 @@
 ---
 title: Math Quotations App
 description: Get inspired with random quotations about math
-image: "/math-quotations-flat-devices.png"
+image: '/math-quotations-flat-devices.png'
 alt: Math Quotations App screenshot
 type: Web App
 tools: [JavaScript, Create React App, Styled Components, Axios]
@@ -15,25 +15,25 @@ id: 1
 <h3>
   <span>
     <a
-      href="https://github.com/dwyafon/math-quotations-app"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="anchor"
+      href='https://github.com/dwyafon/math-quotations-app'
+      target='_blank'
+      rel='noopener noreferrer'
+      className='anchor'
     >
       Source
     </a>
   </span>
   | <span>
     <a
-      href="https://math-quotations.vercel.app/"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="anchor"
+      href='https://math-quotations.vercel.app/'
+      target='_blank'
+      rel='noopener noreferrer'
+      className='anchor'
     >
       Visit
     </a>
   </span>| <span>Built with: </span>
-  <span className="text-black dark:text-cream">
+  <span className='text-black dark:text-cream'>
     JavaScript, Create React App, Styled Components, Axios
   </span>
 </h3>
@@ -43,11 +43,11 @@ id: 1
 ---
 
 <p>
-  This app evolved out of my intention to practise asynchronous with APIs -- and
-  then to practise these things in conjunction with React hooks, namely
-  useState() useEffect(). Ultimately, the app is meant to provide inspiration
-  through random quotations about math (and to remind me of the link between
-  math and programming).
+  This app evolved out of my intention to practise asynchronous JavaScript with
+  external APIs -- and then to practise that in conjunction with React hooks,
+  namely useState() and seEffect(). Ultimately, the app is meant to provide
+  inspiration through random quotations about math (and to be a loose reminder
+  of the link between math and programming).
 </p>
 
 <h2>What it does</h2>
@@ -65,8 +65,18 @@ id: 1
 ---
 
 <p>
-  The API call was originally done with fetch(), but I switched to using the
-  Axios package for built-in JSON parsing.
+  Initially, the app used fetch() to make a call to a public API that returned
+  random programming quotations. Before using the React hooks, the changing
+  background (the logic for which I reused from the Random Linear Gradient
+  Generator) was not working in conjunction with the API call, so the background
+  would change before the new quotation rendered.
+</p>
+
+<p>
+  I then added the hooks to manage the state, run the api call when the state
+  changed, and handle the background change in clear relation to the API call. I
+  also switched from fetch() to using the Axios package for built-in JSON
+  parsing.
 </p>
 
 <h2>How I tested it</h2>
@@ -77,16 +87,48 @@ id: 1
 
 ---
 
+<p>
+  After getting the app's central component set up and styling for large
+  screens, I attempted to deploy the app on Vercel. The deployment was
+  successful, but the app would only show a blank white screen. I spent
+  countless hours looking for bugs, testing small changes across the central
+  component, and finding nothing -- until I finally reminded myself to look more
+  closely at the error messages in the console: There was a problem with making
+  an API call to an endpoint that began with http rather than https.
+</p>
+<p>
+  I couldn't find another (and more secure) public API that served random
+  programing quotations, so I searched for one concerned with a related subject.
+  As soon as I changed the API's URL, it worked like a charm.
+</p>
+<p>
+  I also shot myself in the foot by designing the app with large screens only in
+  mind. Determining the responsiveness with custom breakpoints within the Styled
+  Components from large screen down to small screen felt clumsy, so I started
+  the styling over and designed it with mobiles first in mind.
+</p>
+
 <h2>What I learned</h2>
 
 ---
 
-<h2>How I deployed it</h2>
+I thought I had already learned this one: Read the
+available error messages first, and read them closely. Also: I work more
+efficiently with UI responsiveness when beginning with a mobile layout and
+working my way up to large screens.
+
+<h2>How I deploy it</h2>
 
 ---
 
-<h2>What's next for this project
+<p>As a project on Vercel connected to a repository on GitHub.</p>
+
+<h2>What's next for this project</h2>
 
 ---
+
+<p>&bull; Make the degree of the linear gradient random as well.
+<p>&bull; Find a way to make the contrast between the white text and the random background consistently accessible.
+<p>&bull; Test it properly.</p>
 
 </main>
