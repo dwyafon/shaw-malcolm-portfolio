@@ -100,7 +100,47 @@ It showcases my projects and process, as well as my voice as a writer-programmer
   </a>.
 </p>
 
-<p>The portfolio's light-dark theme toggling is based on Tailwind's <a href='https://tailwindcss.com/docs/dark-mode' className='anchor' target='_blank' rel='noreferrer noopener'>dark mode feature</a> and the <a href='https://github.com/pacocoursey/next-themes' className='anchor' target='_blank' rel='noreferrer noopener'>next-themes </a>package which comes with a ThemeProvider that is wrapped around the application's central Component. The next-themes useTheme() hook is integrated with the toggle, which makes the application globally aware of the theme being 'light' or 'dark'.
+<p>
+  The portfolio's light-dark theme toggling is based on Tailwind's{' '}
+  <a
+    href='https://tailwindcss.com/docs/dark-mode'
+    className='anchor'
+    target='_blank'
+    rel='noreferrer noopener'
+  >
+    dark mode feature
+  </a>{' '}
+  and the
+  <a
+    href='https://github.com/pacocoursey/next-themes'
+    className='anchor'
+    target='_blank'
+    rel='noreferrer noopener'
+  >
+    next-themes
+  </a>
+  package which comes with a ThemeProvider that is wrapped around the
+  application's central Component. The next-themes useTheme() hook is integrated
+  with the toggle, which makes the application globally aware of the theme being
+  'light' or 'dark'.
+</p>
+
+<p>
+  The first set of colours for the app only partially met the
+  <a
+    href='https://www.w3.org/WAI/WCAG21/quickref/?tags=contrast'
+    className='anchor'
+    target='_blank'
+    rel='noreferrer noopener'
+  >
+    WCAG
+  </a>
+  for colour contrast. Not good enough. To improve accessibility, I changed the
+  colour and decoration of the links to a deep dark orange with underlining --
+  this change makes the link accessibility sufficient (not amazing) on either a black
+  or white background. I changed the rest of the styling to be white-on-black or
+  black-on-white for optimum contrast (amazing).
+</p>
 
 <h2>How I tested it</h2>
 
@@ -165,10 +205,6 @@ It showcases my projects and process, as well as my voice as a writer-programmer
   &bull; I need to test the JavaScript. The Testing Library will be my toolbox
   for that. Once that is done, I'll update this page with details on what I
   found and learned.
-</p>
-<p>
-  &bull; Improve the colour contrast in both light and dark mode --
-  accessibility across the board is important to me
 </p>
 <p>&bull; Clean up my use of Tailwind with custom classes.</p>
 
