@@ -15,7 +15,7 @@ export default function Home() {
         <div className='flex sm:flex-col lg:flex-row lg:mx-24'>
           <div className='flex justify-center mb-2 flex-shrink-0'>
             <img
-              src='/images/shaw-profile-250.png'
+              src='/images/shaw-profile-pic.png'
               alt='Shaw Malcolm profile photo'
               className='flex justify-center rounded-full profile sm:h-44 sm:w-44 xl:h-'
             />
