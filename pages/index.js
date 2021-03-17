@@ -12,16 +12,16 @@ export default function Home() {
       </Head>
       <Layout>
         {' '}
-        <div className='flex sm:flex-col lg:flex-row lg:mx-24'>
+        <div className='flex sm:flex-col lg:flex-row lg:mx-32'>
           <div className='flex justify-center mb-2 flex-shrink-0'>
             <img
               src='/images/shaw-profile-pic.png'
               alt='Shaw Malcolm profile photo'
-              className='flex justify-center rounded-full profile sm:h-44 sm:w-44 xl:h-'
+              className='flex justify-center rounded profile sm:h-44'
             />
           </div>
 
-          <div className='mx-5 sm:mx-4 md:mx-16 lg:mx-24 xl:mx-36 xxl:mx-48 text-black dark:text-cream'>
+          <div className='mx-5 sm:mx-4 md:mx-16 lg:mx-24 xl:mx-36 text-black dark:text-cream'>
             <p className='mb-4'>
               I'm a junior developer who excels at translating UI designs into
               responsive and accessible layouts with JavaScript, TypeScript, and

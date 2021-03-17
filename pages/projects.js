@@ -31,7 +31,7 @@ export default function Projects({ projects }) {
               <header>
                 <h2 className='mb'>
                   <Link href={'/project/[slug]'} as={`/project/${slug}`}>
-                    <a className='text-lg anchor no-underline'>{title}</a>
+                    <a className='text-base anchor no-underline'>{title}</a>
                   </Link>
                 </h2>
                 <p className='text-sm mb-1 text-black dark:text-white'>{description}</p>
