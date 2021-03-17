@@ -12,15 +12,77 @@ id: 2
 
 <main>
 
-<h3><span className='anchor'>Source</span> | <span className='anchor'>Visit</span> | <span>Built with: <span className='text-cream'>JavaScript, HTML, CSS</span> </span></h3>
+<h3>
+  <span>
+    <a
+      href="https://github.com/dwyafon/random-linear-gradient-generator"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="anchor"
+    >
+      Source
+    </a>
+  </span>
+  | <span>
+    <a
+      href="https://random-linear-gradient-generator.vercel.app/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="anchor"
+    >
+      Visit
+    </a>
+  </span>| <span>Built with: </span>
+  <span className="text-cream">JavaScript, HTML, CSS</span>
+</h3>
+
+<h2>Why I built it</h2>
+
+---
+
+<p>
+  When the blank white screen feels too vast and distracting, adding some colour
+  can take one's mind off of the vastness and clear the head. Seeing
+  new/unexpected colour combinations in the gradients can illuminate new UI
+  possibilities.
+</p>
 
 <h2>What it does</h2>
 
 ---
 
+<p>
+  When the app first loads, a pre-set linear gradient is shown. The user can then
+  generate a new random linear-gradient set at 45-degrees with a click of the button or by
+  pressing the enter key.
+</p>
+<p>
+
+</p>
+
 <h2>How I built it</h2>
 
 ---
+
+<p>
+  I studied and practised vanilla JavaScript for many moons before touching a JS
+  framework or library, and this app was built during my pre-React studies. I
+  went with pure JS manipulating the DOM, simple CSS, and a bread and butter
+  HTML document.
+</p>
+<p>
+  The JS grabs the covering container, button, and h2 elements from the document
+  with querySelector. When the click event is triggered, the changeGradient
+  function is called, which runs two for-loops over an array of values from 0 to
+  F to produce two different and random strings of hex values that are
+  interpolated into a new linear gradient value. This new value is then applied
+  as the background value for the covering container and the textContent value
+  of the h2.
+</p>
+
+<p>
+
+</p>
 
 <h2>How I tested it</h2>
 
@@ -30,16 +92,40 @@ id: 2
 
 ---
 
+<p>
+  The main challenge was my initial thinking that something like this app was
+  too simple, not worth building, that I needed to set my sights on something
+  much larger and more complex. But I eventually regained my clarity and knew
+  that there is a lot of opportunity and value in building simple things -- for
+  myself and for others.
+</p>
+
 <h2>What I learned</h2>
 
 ---
 
-<h2>How I deployed it</h2>
+<p>
+  Choosing to stick with vanilla JavaScript for this project kept me grounded in
+  fundamentals and reminded me of the power of simple DOM manipulation.
+</p>
+
+<p>
+  This tiny app is a tool that I return to again and again when I'm quickly
+  building something on the fly, usually practising and learning something, and
+  want a different background. I didn't realise when I built it that I would use
+  it as much as I do.
+</p>
+
+<h2>How I deploy it</h2>
+<p>This app is deployed through Vercel.</p>
 
 ---
 
-<h2>What's next for this project
+<h2>What's next for this project</h2>
 
 ---
+
+<p>&bull; Make the degree of the linear gradient randomly generated as well.</p>
+<p>&bull; Test the app</p>
 
 </main>
