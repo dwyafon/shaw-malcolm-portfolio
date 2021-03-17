@@ -103,13 +103,15 @@ It showcases my projects and process, as well as my voice as a writer-programmer
 <p>The portfolio's light-dark theme toggling is based on Tailwind's <a href='https://tailwindcss.com/docs/dark-mode' className='anchor' target='_blank' rel='noreferrer noopener'>dark mode feature</a> and the <a href='https://github.com/pacocoursey/next-themes' className='anchor' target='_blank' rel='noreferrer noopener'>next-themes </a>package which comes with a ThemeProvider that is wrapped around the application's central Component. The next-themes useTheme() hook is integrated with the toggle, which makes the application globally aware of the theme being 'light' or 'dark'.
 
 <h2>How I tested it</h2>
+
+---
+
 <p>
-  I've begun testing with Lighthouse. Initially, the app scores highest for SEO
+  I've begun testing with Lighthouse before I use the Testing Library for
+  testing the JavaScript specifically. Initially, the app scores highest for SEO
   and lowest for performance, with an overall score of 87. Much more testing to
   follow.
 </p>
-
----
 
 <h2>What challenges I ran into</h2>
 
@@ -164,7 +166,10 @@ It showcases my projects and process, as well as my voice as a writer-programmer
   for that. Once that is done, I'll update this page with details on what I
   found and learned.
 </p>
-<p>&bull; Improve the colour contrast in both light and dark mode</p>
+<p>
+  &bull; Improve the colour contrast in both light and dark mode --
+  accessibility across the board is important to me
+</p>
 <p>&bull; Clean up my use of Tailwind with custom classes.</p>
 
 </main>
