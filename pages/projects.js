@@ -26,7 +26,7 @@ export default function Projects({ projects }) {
           }) => (
             <article
               key={slug}
-              className='rounded-lg bg-charcoal p-2 lg:mx-12 w-full overflow-hidden sm:my-3 sm:px-3 sm:w-full md:my-2 md:px-2 md:w-1/2 lg:my-2 lg:px-2 lg:w-1/3 xl:my-3 xl:px-3 xl:w-1/4'
+              className='rounded-lg  p-2 lg:mx-12 w-full overflow-hidden sm:my-3 sm:px-3 sm:w-full md:my-2 md:px-2 md:w-1/2 lg:my-2 lg:px-2 lg:w-1/3 xl:my-3 xl:px-3 xl:w-1/4'
             >
               <header>
                 <h2 className='mb'>
@@ -34,7 +34,7 @@ export default function Projects({ projects }) {
                     <a className='text-lg anchor no-underline'>{title}</a>
                   </Link>
                 </h2>
-                <p className='text-sm mb-1 text-cream'>{description}</p>
+                <p className='text-sm mb-1 text-black dark:text-white'>{description}</p>
               </header>
               <section className='flex justify-center mt-2 mb-2'>
               <Image
@@ -45,13 +45,13 @@ export default function Projects({ projects }) {
             />
               </section>
               <section>
-                <p className='text-sm mb-1 text-orange'>
-                  Type: <span className='text-cream'>{type}</span>
+                <p className='text-sm mb-1 text-pumpkin'>
+                  Type: <span className='text-black dark:text-white'>{type}</span>
                 </p>
-                <p className='text-sm mb-1 text-orange'>
+                <p className='text-sm mb-1 text-pumpkin'>
                   Built with:{' '}
                   {tools.map((tool, index) => (
-                    <span key={index} className='text-cream'>
+                    <span key={index} className='text-black dark:text-white'>
                       {index === tools.length - 1 ? `${tool} ` : `${tool}, `}
                     </span>
                   ))}

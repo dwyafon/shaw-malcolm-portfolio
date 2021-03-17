@@ -58,13 +58,10 @@ a {
 }
 
 .anchor {
-  color: #d1600c;
-  border-bottom: 1px solid transparent;
+  color: #dd3300;
   cursor: pointer;
-}
-
-.anchor:hover {
-  border-bottom: 1px solid #d1600c;
+  text-decoration: underline;
+  
 }
 
 .container {
