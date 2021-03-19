@@ -8,7 +8,7 @@ export default function Blog({ posts }) {
   return (
     <Layout>
      
-      <div className="m:mx-4 sm:mx-6 md:mx-10 max-w-screen-md lg:mx-48 xl:mx-96 lg:mb-48">
+      <div className="m:mx-4 sm:mx-6 md:mx-16 max-w-screen-md lg:mx-48 xl:mx-96 lg:mb-48">
       <h1 className="text-pumpkin text-3xl mb-1 text-center">Blog List</h1>
       <h2 className="mb-4 text-black dark:text-white text-center">Click on a title for full post</h2>
         {Posts.map(({ frontmatter: { title, description, date }, slug }) => (
