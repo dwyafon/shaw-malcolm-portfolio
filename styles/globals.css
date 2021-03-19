@@ -64,6 +64,10 @@ a {
   
 }
 
+/* h1 {
+  font-size: 2rem;
+} */
+
 .container {
   min-height: 100%;
   display: grid;

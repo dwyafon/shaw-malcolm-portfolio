@@ -28,7 +28,7 @@ export default function Home() {
               React. I'm also a huge advocate of testing and writing testable
               code. Currently apprenticing at{' '}
               <a
-                className='text-pumpkin underline'
+                className='text-pumpkin underline anchor hover:text-blue dark:hover:text-green'
                 href='https://trackstack.in/'
                 referrerPolicy='no-referrer'
                 target='_blank'
@@ -55,7 +55,7 @@ export default function Home() {
             <p className='mb-8'>
               You can find me on{' '}
               <a
-                className='text-pumpkin underline'
+                className='text-pumpkin underline anchor hover:text-blue dark:hover:text-green'
                 href='https://www.linkedin.com/in/shawmalcolm/'
                 referrerPolicy='no-referrer'
                 target='_blank'
@@ -64,7 +64,7 @@ export default function Home() {
               </a>{' '}
               and{' '}
               <a
-                className='text-pumpkin underline'
+                className='text-pumpkin underline anchor hover:text-blue dark:hover:text-green'
                 href='https://github.com/dwyafon'
                 referrerPolicy='no-referrer'
                 target='_blank'

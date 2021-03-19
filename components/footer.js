@@ -29,15 +29,15 @@ const Footer = () => {
       <div className='mb-1'>
         <ul className='flex text-sm'>
           <Link href='/'>
-            <a className='mx-2 anchor font-black'>Home</a>
+            <a className='mx-2 anchor hover:text-green dark:hover:text-blue font-black'>Home</a>
           </Link>
           <span className='text-pumpkin divider'>|</span>
           <Link href='/projects'>
-            <a className='mx-2 anchor font-black'>Projects</a>
+            <a className='mx-2 anchor hover:text-green dark:hover:text-blue font-black'>Projects</a>
           </Link>
           <span className='text-pumpkin divider'>|</span>
           <Link href='/blog'>
-            <a className='mx-2 lg:mr-0 anchor font-black'>Blog</a>
+            <a className='mx-2 lg:mr-0 anchor hover:text-green dark:hover:text-blue font-black'>Blog</a>
           </Link>
         </ul>
       </div>

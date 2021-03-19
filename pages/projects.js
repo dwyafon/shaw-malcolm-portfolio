@@ -31,7 +31,7 @@ export default function Projects({ projects }) {
               <header>
                 <h2 className='mb'>
                   <Link href={'/project/[slug]'} as={`/project/${slug}`}>
-                    <a className='text-base anchor no-underline'>{title}</a>
+                    <a className='text-base anchor hover:text-blue dark:hover:text-green '>{title}</a>
                   </Link>
                 </h2>
                 <p className='text-sm mb-1 text-black dark:text-white'>{description}</p>
@@ -57,12 +57,12 @@ export default function Projects({ projects }) {
                   ))}
                 </p>
                 <p className='text-sm mb-1'>
-                  <a href={source} target='_blank' rel='noopener noreferer' className='anchor'>
+                  <a href={source} target='_blank' rel='noopener noreferer' className='anchor hover:text-blue dark:hover:text-green'>
                     Source Code
                   </a>
                 </p>
                 <p className='text-sm mb-1'>
-                  <a href={visit} target='_blank' rel='noopener noreferer' className='anchor'>
+                  <a href={visit} target='_blank' rel='noopener noreferer' className='anchor hover:text-blue dark:hover:text-green'>
                     Visit
                   </a>
                 </p>

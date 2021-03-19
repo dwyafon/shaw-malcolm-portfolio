@@ -29,13 +29,16 @@ module.exports = {
       black: '#000',
       white: '#fff',
       pumpkin: '#dd3300',
+      green: '#07dd00',
+      blue: '#0012dd',
     },
     minWidth: {
       50: '50%',
     },
   },
   variants: {
-    extend: {},
+    extend: {
+    },
   },
   plugins: [],
 }
