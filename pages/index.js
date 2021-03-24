@@ -23,7 +23,7 @@ export default function Home() {
 
           <div className='mx-5 sm:mx-4 md:mx-16 lg:mx-24 xl:mx-36 text-black dark:text-cream'>
             <p className='mb-4'>
-              I'm a junior developer who excels at translating UI designs into
+              I'm a software developer and tester who excels at translating UI designs into
               responsive and accessible layouts with JavaScript, TypeScript, and
               React. I'm also a huge advocate of testing and writing testable
               code. Currently apprenticing at{' '}
