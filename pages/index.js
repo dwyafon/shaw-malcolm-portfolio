@@ -25,7 +25,7 @@ export default function Home() {
             <p className='mb-4'>
               I'm a software developer and tester who excels at translating UI designs into
               responsive and accessible layouts with JavaScript, TypeScript, and
-              React. I'm also a huge advocate of testing and writing testable
+              React. I'm a huge advocate of testing and writing testable
               code. Currently apprenticing at{' '}
               <a
                 className='text-pumpkin underline anchor hover:text-blue dark:hover:text-green'
