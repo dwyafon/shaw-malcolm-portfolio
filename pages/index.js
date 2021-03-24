@@ -38,8 +38,8 @@ export default function Home() {
               .
             </p>
             <p className='mb-4'>
-              My background is highly leverageable for software development: 17 years
-              in the hospitality industry defining and solving problems,
+              My background is highly leverageable for software development: several years
+              in senior roles in the hospitality industry defining and solving problems,
               building relatonships with stakeholders, and utilising agile
               practises (including Scrum) for staff, service and system
               development. I'm also qualified in person-centred counselling, and
