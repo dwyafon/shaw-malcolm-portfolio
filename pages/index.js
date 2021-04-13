@@ -40,15 +40,15 @@ export default function Home() {
             <p className='mb-4'>
               My background is highly leverageable for software development: several years
               in senior roles in the hospitality industry defining and solving problems,
-              building relatonships with stakeholders, and utilising agile
-              practises (including Scrum) for staff, service and system
+              building relationships with stakeholders, and utilising agile
+              practices (including Scrum) for staff, service and system
               development. I'm also qualified in person-centred counselling, and
               during 2.5 years as a volunteer bereavement counsellor I deepened
               my ability to empathise and listen.
             </p>
             <p className='mb-4'>
               I'm looking for a company with a great culture that cares about
-              testing and TDD, clean code, efficient CI/CD practises, and agile
+              testing and TDD, clean code, efficient CI/CD practices, and agile
               methodologies.
             </p>
 
