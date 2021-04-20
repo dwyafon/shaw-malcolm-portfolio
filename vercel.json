@@ -21,7 +21,7 @@
                 },
                 {
                     "key": "Permissions-Policy",
-                    "value": "geolocation 'none"
+                    "value": "geolocation 'none'"
                 },
                 {
                     "key": "Access-Control-Allow-Origin",
