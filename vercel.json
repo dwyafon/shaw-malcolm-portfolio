@@ -22,6 +22,10 @@
                 {
                     "key": "Permissions-Policy",
                     "value": "geolocation 'none"
+                },
+                {
+                    "key": "Access-Control-Allow-Origin",
+                    "value": "https://shawmalcolm.dev/"
                 }
             ]
         }
