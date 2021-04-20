@@ -1,0 +1,14 @@
+{
+    "headers": [
+        {
+            "source": "/(.*)",
+            "headers": [
+                {
+                    "key": "Content-Security-Policy",
+                    "value": "connect-src 'self'; default-src 'none'; img-src 'self'; manifest-src 'self'; script-src-elem 'self'; style-src-elem 'self'"
+                }
+            ]
+        }
+
+    ]
+}
