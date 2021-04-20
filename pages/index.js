@@ -6,6 +6,10 @@ export default function Home() {
     <>
       {' '}
       <Head>
+        <meta
+          http-equiv='Content-Security-Policy'
+          content="connect-src 'self'; default-src 'none; img-src 'self; manifest-src 'self'; script-src-elem 'self'; style-src-elem 'self';"
+        />
         <title>Shaw Malcolm - Developer and Tester</title>
         <link rel='icon' href='/favicon.ico' />
         <link href='public/fonts/style.css' rel='stylesheet' />
@@ -23,10 +27,10 @@ export default function Home() {
 
           <div className='mx-5 sm:mx-4 md:mx-16 lg:mx-24 xl:mx-36 text-black dark:text-cream'>
             <p className='mb-4'>
-              I'm a software developer and tester who excels at translating UI designs into
-              responsive and accessible layouts with JavaScript, TypeScript, and
-              React. I'm a huge advocate of testing and writing testable
-              code. Currently apprenticing at{' '}
+              I'm a software developer and tester who excels at translating UI
+              designs into responsive and accessible layouts with JavaScript,
+              TypeScript, and React. I'm a huge advocate of testing and writing
+              testable code. Currently apprenticing at{' '}
               <a
                 className='text-pumpkin underline anchor hover:text-blue dark:hover:text-green'
                 href='https://trackstack.in/'
@@ -38,13 +42,13 @@ export default function Home() {
               .
             </p>
             <p className='mb-4'>
-              My background is highly leverageable for software development: several years
-              in senior roles in the hospitality industry defining and solving problems,
-              building relationships with stakeholders, and utilising agile
-              practices (including Scrum) for staff, service and system
-              development. I'm also qualified in person-centred counselling, and
-              during 2.5 years as a volunteer bereavement counsellor I deepened
-              my ability to empathise and listen.
+              My background is highly leverageable for software development:
+              several years in senior roles in the hospitality industry defining
+              and solving problems, building relationships with stakeholders,
+              and utilising agile practices (including Scrum) for staff, service
+              and system development. I'm also qualified in person-centred
+              counselling, and during 2.5 years as a volunteer bereavement
+              counsellor I deepened my ability to empathise and listen.
             </p>
             <p className='mb-4'>
               I'm looking for a company with a great culture that cares about
