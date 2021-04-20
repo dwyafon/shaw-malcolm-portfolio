@@ -6,10 +6,10 @@ export default function Home() {
     <>
       {' '}
       <Head>
-        <meta
-          http-equiv='Content-Security-Policy'
-          content="connect-src 'self'; default-src 'none; img-src 'self; manifest-src 'self'; script-src-elem 'self'; style-src-elem 'self';"
-        />
+      <meta
+      http-equiv='Content-Security-Policy-Report-Only'
+      content="default-src 'none; form-action 'none'; frame-ancestors 'none;"
+    />
         <title>Shaw Malcolm - Developer and Tester</title>
         <link rel='icon' href='/favicon.ico' />
         <link href='public/fonts/style.css' rel='stylesheet' />
