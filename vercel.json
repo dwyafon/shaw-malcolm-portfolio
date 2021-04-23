@@ -5,10 +5,29 @@
       "headers": [
         {
           "key": "Content-Security-Policy",
-          "value": "default-src 'self' https://shawmalcolm.dev/"
+          "value": "default-src 'self'"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "geolocation 'none'"
+        },
+        {
+            "key": "Access-Control-Allow-Origin",
+            "value": "https://shawmalcolm.dev/"
         }
       ]
     }
   ]
 }
-
