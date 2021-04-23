@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import Image from 'next/image'
+// import Image from 'next/image'
 import { useTheme } from 'next-themes'
 import { useState, useEffect } from 'react'
 
@@ -16,18 +16,18 @@ const Navbar = () => {
           {' '}
           <Link href='/'>
             {theme === 'dark' ? (
-              <Image
+              <img
                 src='/images/white-logo-no-bg.png'
                 alt='Shaw Malcolm Logo'
-                width={60}
-                height={60}
+                width='60'
+                height='60'
               />
             ) : (
-              <Image
+              <img
                 src='/images/logo-black.png'
                 alt='Shaw Malcolm Logo'
-                width={60}
-                height={60}
+                width='60'
+                height='60'
               />
             )}
           </Link>
@@ -37,15 +37,21 @@ const Navbar = () => {
           <h2 className='text-3xl text-black dark:text-cream'>Shaw Malcolm</h2>
           <ul className='flex text-base'>
             <Link href='/'>
-              <a className='mx-2 anchor hover:text-blue dark:hover:text-green font-black'>Home</a>
+              <a className='mx-2 anchor hover:text-blue dark:hover:text-green font-black'>
+                Home
+              </a>
             </Link>
-            <span className="text-pumpkin divider">|</span>
+            <span className='text-pumpkin divider'>|</span>
             <Link href='/projects'>
-              <a className='mx-2 anchor hover:text-blue dark:hover:text-green font-black'>Projects</a>
+              <a className='mx-2 anchor hover:text-blue dark:hover:text-green font-black'>
+                Projects
+              </a>
             </Link>
-            <span className="text-pumpkin divider">|</span>
+            <span className='text-pumpkin divider'>|</span>
             <Link href='/blog'>
-              <a className='mx-2 anchor hover:text-blue dark:hover:text-green font-black'>Blog</a>
+              <a className='mx-2 anchor hover:text-blue dark:hover:text-green font-black'>
+                Blog
+              </a>
             </Link>
           </ul>
         </div>
