@@ -5,7 +5,27 @@
       "headers": [
         {
           "key": "Content-Security-Policy",
-          "value": "connect-src 'self' default-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self'"
+          "value": "connect-src 'self'; default-src 'self'; manifest-src 'self'; script-src 'self'; style-src 'self'"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "geolocation 'none'"
+        },
+        {
+            "key": "Access-Control-Allow-Origin",
+            "value": "https://shawmalcolm.dev/"
         }
       ]
     }
